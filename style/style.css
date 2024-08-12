@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Work Sans", sans-serif;
+   
+}
+image{
+    width: 100%;
+    height: 100%;
+}
+/* shared style  */
+.work-sans{
+    font-family: "Work Sans", sans-serif;
+}
+.btn{
+    font-size: 0.8rem;
+    background-color: #52C303;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 15px;
+}
+section{
+    width: 95%;
+    margin: auto;
+}
+header{
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 500px;
+    margin: 10px auto;
+}
+.banner{
+    color: white;
+    width: 60%;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin: auto;
+}
+.banner p{
+    font-size: 1.3rem;
+}
+.banner h4{
+    font-size: 3rem;
+}
+
+/* CARD BOX  */
+#card-box{
+    height: 700px;
+    display: grid;
+    align-items: center;
+}
+.herox{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+}
+.hero-part{
+    text-align: center;
+}
+.hero-part p{
+    font-size: 1.1rem;
+}
+.hero-part h3{
+    font-size: 2rem;
+}
+.card-part{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.card{
+    width: 280px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
